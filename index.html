@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1' /><![endif]-->
+  <title>A Watch by You</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Modular Health Watch">
+  <meta property="og:title" content="A Watch that adjusts for you">
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:description" content="A Swiss army knife health watch" />
+  <!--authorship-->
+  <!--stylesheets-->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <!--icons-->
+  <!--scripts-->
+
+  <!--[if lt IE 9]>
+    <script src="/js/html5shiv.js"></script>
+    <script src="/js/respond.min.js"></script>
+  <![endif]-->
+  <script src="js/jquery-1.9.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/typed.min.js"></script>
+  <script src="js/snap.svg-min.js"></script>
+  <script src="js/jquery.onepage-scroll.min.js"></script>
+  <script src="js/main.js"></script>
+</head>
+<body>
+<header class="watch-header">
+  <div class="container">
+    <a href="http://mijlo.com/" class="logo" title="MIJLO"><i class="mi mi-logo"></i></a>
+    <button type="button" class="info"><i class="mi mi-info"></i></button>
+  </div>
+</header>
+<div class="watch-info">  
+  <button type="button" class="info-close"><i class="mi mi-close"></i></button>
+  <h2>Hey There!</h2>
+  <div class="watch-info-inner">
+    <p>This product is a part of BIRAC Hackathon 2016 happening currently in IKP Bengaluru.</p>
+    <p>Show us your love by joining our waiting list.</p>
+  </div>
+</div>
+<form id="watch-form" class="main container" method="post">
+  <section class="watch-section watch-intro">
+    <div class="watch-inner">
+      <header>
+        <h1>You get a <span class="watch-name-typed"></span>:<br/>in modular watch</h1>
+        <h2>A watch that adjusts for you.</h2>
+      </header>
+    </div>
+    <a href="index.html#2" class="more" data-index="2">
+      <span class="more-text">Design your watch below.</span>
+      <i class="mi mi-more-arr"></i>
+    </a>
+  </section>
+  <section class="watch-section watch-faces" id="faces">
+    <div class="watch-inner">
+      <header>
+        <h2>Choose your modules</h2>
+        <h3>3 Modules: </h3>
+      </header>
+<div class="faces clearfix limit-checkboxes" data-max-checkboxes="3">
+        <div class="custom-check">
+          <input type="checkbox" id="face1" name="watch-face-group[]" value="1">
+          <label class="face face1" for="face1">
+            <div style="position: absolute;top: 62px;left: 31px;">Sphygmomanometer</div>
+          </label>
+        </div>
+        <div class="custom-check">
+          <input type="checkbox" id="face2" name="watch-face-group[]" value="2">
+          <label class="face face2" for="face2">
+            <div style="position: absolute;top: 62px;left: 50px;">UV Monitor</div>
+          </label>
+        </div>
+        <div class="custom-check">
+          <input type="checkbox" id="face3" name="watch-face-group[]" value="3">
+          <label class="face face3" for="face3">
+            <div style="position: absolute;top: 62px;left: 7px;">Pollution Monitor</div>
+          </label>
+        </div>
+        <div class="custom-check">
+          <input type="checkbox" id="face4" name="watch-face-group[]" value="4">
+          <label class="face face4" for="face4">
+            <div style="position: absolute;top: 62px;left: 54px;">ECG</div>
+          </label>
+        </div>
+        <div class="custom-check">
+          <input type="checkbox" id="face5" name="watch-face-group[]" value="5">
+          <label class="face face5" for="face5">
+            <div style="position: absolute;top: 62px;left: 31px;">Glucometer</div>
+          </label>
+        </div>
+      </div>
+    </div>
+    <a href="index.html#3" class="more" data-index="3"><i class="mi mi-more-arr"></i></a>
+  </section>
+  <section class="watch-section watch-bands" id="bands">
+    <div class="watch-inner">
+      <header>
+        <h2>Choose your favorite</h2>
+        <h3>5 Bands</h3>
+      </header>
+      <div class="bands clearfix limit-checkboxes" data-max-checkboxes="5">
+        <div class="custom-check">
+          <input type="checkbox" id="band1" name="watch-band-group[]" value="1"/>
+          <label class="band band1" for="band1"></label>
+        </div>
+        <div class="custom-check">
+          <input type="checkbox" id="band2" name="watch-band-group[]" value="2"/>
+          <label class="band band2" for="band2"></label>
+        </div>
+        <div class="custom-check">
+          <input type="checkbox" id="band3" name="watch-band-group[]" value="3"/>
+          <label class="band band3" for="band3"></label>
+        </div>
+        <div class="custom-check">
+          <input type="checkbox" id="band4" name="watch-band-group[]" value="4"/>
+          <label class="band band4" for="band4"></label>
+        </div>
+        <div class="custom-check">
+          <input type="checkbox" id="band5" name="watch-band-group[]" value="5"/>
+          <label class="band band5" for="band5"></label>
+        </div>
+        <div class="custom-check">
+          <input type="checkbox" id="band6" name="watch-band-group[]" value="6"/>
+          <label class="band band6" for="band6"></label>
+        </div>
+        <div class="custom-check">
+          <input type="checkbox" id="band7" name="watch-band-group[]" value="7"/>
+          <label class="band band7" for="band7"></label>
+        </div>
+        <div class="custom-check">
+          <input type="checkbox" id="band8" name="watch-band-group[]" value="8"/>
+          <label class="band band8" for="band8"></label>
+        </div>
+        <div class="custom-check">
+          <input type="checkbox" id="band9" name="watch-band-group[]" value="9"/>
+          <label class="band band9" for="band9"></label>
+        </div>
+        <div class="custom-check">
+          <input type="checkbox" id="band10" name="watch-band-group[]" value="10"/>
+          <label class="band band10" for="band10"></label>
+        </div>
+      </div>
+    </div>
+    <a href="index.html#4" class="more" data-index="4"><i class="mi mi-more-arr"></i></a>
+  </section>
+  <section class="watch-section watch-goals" id="goals">
+    <div class="watch-inner">
+      <header>
+        <h2>Choose your favorite</h2>
+        <h3>1 Core Module</h3>
+      </header>
+      <div class="goals clearfix limit-checkboxes" data-max-checkboxes="1">
+        <div class="custom-check">
+          <input type="checkbox" id="goal1" name="watch-goal-group[]" value="1"/>
+          <label class="goal goal1" for="goal1">2 Modules + Larger Battery</label>
+        </div>
+        <div class="custom-check">
+          <input type="checkbox" id="goal2" name="watch-goal-group[]" value="2"/>
+          <label class="goal goal2" for="goal2">3 Modules</label>
+        </div>
+        <div class="custom-check">
+          <input type="checkbox" id="goal3" name="watch-goal-group[]" value="3"/>
+          <label class="goal goal3" for="goal3">2 Modules + 64 GB internal Memory</label>
+        </div>
+        <div class="custom-check">
+          <input type="checkbox" id="goal4" name="watch-goal-group[]" value="4"/>
+          <label class="goal goal4" for="goal4" style="font-size: 14px;">2 Modules + LTE</label>
+        </div>
+      </div>
+    </div>
+    <a href="/" class="more" data-index="5"><i class="mi mi-more-arr"></i></a>
+  </section>
+  <section class="watch-section watch-taglines" id="taglines">
+    <div class="watch-inner">
+      <header>
+        <h2>or Choose your Package</h2>
+        <h3>These are our specially designed Combinations</h3>
+      </header>
+      <div class="taglines">
+        <div class="custom-check">
+          <input type="radio" id="check1" name="watch-tagline" value="1"/>
+          <label for="check1">Mother's Watch: 1 Timepiece + Pollution Monitor + UV Monitor</label>
+        </div>
+        <div class="custom-check">
+          <input type="radio" id="check2" name="watch-tagline" value="2"/>
+          <label for="check2">The Daily Timepiece: A Watch for Today and Tomorrow.</label>
+        </div>
+        <div class="custom-check">
+          <input type="radio" id="check3" name="watch-tagline" value="3"/>
+          <label for="check3">The 10 in 1 Watch: A Timeless, Every Day Watch by MIJLO</label>
+        </div>
+        <div class="custom-check">
+          <input type="radio" id="check4" name="watch-tagline" value="4"/>
+          <label for="check4">The Range: It's Not Just a Watch, It's a Collection.</label>
+        </div>
+        <div class="custom-check">
+          <input type="radio" id="check5" name="watch-tagline" value="5"/>
+          <label for="check5">The Timeless Watch: A New Take on Time.</label>
+        </div>
+      </div>
+    </div>
+    <a href="index.html#6" class="more" data-index="6"><i class="mi mi-more-arr"></i></a>
+  </section>
+  <section class="watch-section watch-suggestions" id="suggestions">
+    <div class="watch-inner">
+      <div class="suggestions-wrap">
+        <header>
+          <h2>We just gave you a sneak peak into our latest hack. Any other suggestions?</h2>
+          <h3>We’d love to hear them</h3>
+        </header>
+        <div class="suggestions">
+          <textarea name="watch-suggestions"></textarea>
+          <input type="text" name="human-check" class="human-check" value="" />
+          <button id="watch-submit" type="submit" class="btn btn-primary btn-lg">Submit All</button>
+        </div>
+        <!--<div class="form-submitted">-->
+        <!--  <div class="center-container">-->
+        <!--    <div class="center-me">-->
+        <!--      <i class="mi mi-logo-white"></i>-->
+        <!--      <p>Thanks for your design tips and welcome to the MIJLO collective. Our watch wouldn’t be complete without you. MIJLO loves to collaborate and we have a variety of interesting projects waiting in the wings. Until our next collaboration...</p>-->
+        <!--    </div>-->
+        <!--  </div>-->
+        <!--</div>-->
+      </div>
+    </div>
+  </section>
+</form><!--end main-->
+<footer class="footer">
+  <div class="container">
+    <div class="row">  
+      <div class="col-md-3">
+        <h2 class="footer-title">Coming soon on your favorite online shopping portal</h2>
+      </div>
+      <div class="col-md-5">
+        <p class="footer-content">Thanks for your submissions! Our watch wouldn’t be complete without you. </p>
+      </div>
+      <div class="col-md-4">
+        <form action="http://everydaywatch.mijlo.com" id="email-form" class="footer-form">
+          <div class="input-group">
+            <input id="email-field" type="text" class="form-control" name="subscribe-email" required="required" value="join the waiting list." disabled="disabled" />
+            <input type="text" name="human-check" class="human-check" value="" />
+            <span class="input-group-btn">
+              <button id="email-submit" type="submit" class="btn btn-default">Join the waiting list.</button>
+            </span>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
