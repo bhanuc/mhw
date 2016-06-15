@@ -73,7 +73,7 @@ $(document).ready(function(){
 
 	//enable typewritter effect
 	$(".watch-name-typed").typed({
-		strings: ["Portable UV Monitor","Portable Pollution Monitor","Body Temperature monitor", "Sphygmomanometer", "Larger battery", "Portable ECG", "Airflow Monitor", " Pulse and Oxygen in Blood Monitor","Glucometer","Portable EMG","Patient Posture Monitor", "Daily Timepiece"],
+		strings: ["UV Monitor","Pollution Monitor","Body Temperature monitor", "Sphygmomanometer", "Larger battery", "ECG", "Airflow Monitor", " Pulse and Oxygen in Blood Monitor","Glucometer","EMG","Patient Posture Monitor", "Daily Timepiece"],
 		typeSpeed: 80,
 		backDelay: 1500,
 		loop: true

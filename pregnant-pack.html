@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1' /><![endif]-->
+  <title>A Watch by You</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Modular Health Watch">
+  <meta property="og:title" content="A Watch that adjusts for you">
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:description" content="A Swiss army knife health watch" />
+  <!--authorship-->
+  <!--stylesheets-->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <!--icons-->
+  <!--scripts-->
+
+  <!--[if lt IE 9]>
+    <script src="/js/html5shiv.js"></script>
+    <script src="/js/respond.min.js"></script>
+  <![endif]-->
+  <script src="js/jquery-1.9.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/typed.min.js"></script>
+  <script src="js/snap.svg-min.js"></script>
+  <script src="js/jquery.onepage-scroll.min.js"></script>
+  <script src="js/main.js"></script>
+</head>
+<body>
+<header class="watch-header">
+  <div class="container">
+    <a href="/mwd" class="logo" ><i style="width: 46px;height: 46px; background-position: -105px -6px;display: inline-block;background: url("../img/MHW1.png");"></i></a>
+    <button type="button" class="info"><i class="mi mi-info"></i></button>
+  </div>
+</header>
+<div class="watch-info">  
+  <button type="button" class="info-close"><i class="mi mi-close"></i></button>
+  <h2>Hey There!</h2>
+  <div class="watch-info-inner">
+    <p>This product is a part of BIRAC Hackathon 2016 happening currently in IKP Bengaluru.</p>
+    <p>Show us your love by joining our waiting list.</p>
+  </div>
+</div>
+<form id="watch-form" class="main container" method="post">
+  <section class="watch-section watch-intro">
+    <div class="watch-inner">
+      <header>
+        <h1>Did you know? Pollution around you can kill your baby.</h1>
+        <h2>Our watch can help you detect pollution in realtime.</h2>
+      </header>
+    </div>
+    <a href="index.html#2" class="more" data-index="2">
+      <i class="mi mi-more-arr"></i>
+    </a>
+  </section>
+  <section class="watch-section watch-faces" id="faces">
+    <div class="watch-inner">
+           <h3>Pollution around you can bring adverse or even fatal consequences to you and your baby. <br>
+           Pregnant women is one of the most susceptible groups to increasing air pollution.<br>
+           Studies have shown that increase in level of  ozone and other toxic gases can cause complications like pre-eclampsia1, small for gestational age2 (SGA), 
+           gestational hypetension.<br> Presence of pollutants like carbon monoxide ad nitrogen di-oxide increases the odds of pre-term births significantly
+           and can also effect their still-growing lungs, immune systems and metabolic systems leading to respiratory and skin infections in future.
+</h3>
+    </div>
+    <a href="index.html#3" class="more" data-index="3"><i class="mi mi-more-arr"></i></a>
+  </section>
+  <section class="watch-section watch-taglines" id="taglines">
+    <div class="watch-inner">
+      <header>
+        <h2>Choose a watch specifically made for you.</h2>
+        <h3>It gives realtime Pollution and UV radiation alert.</h3>
+      </header>
+
+    </div>
+    <a href="index.html#6" class="more" data-index="6"><i class="mi mi-more-arr"></i></a>
+  </section>
+  <section class="watch-section watch-suggestions" id="suggestions">
+    <div class="watch-inner">
+      <div class="suggestions-wrap">
+        <header>
+          <h2>We just gave you a sneak peak into our latest hack. Want to order?</h2>
+          <h3>We will be launching soon.Just leave your email id below.</h3>
+        </header>
+        <div class="suggestions">
+          <textarea name="watch-suggestions"></textarea>
+          <input type="text" name="human-check" class="human-check" value="" />
+          <button id="watch-submit" type="submit" class="btn btn-primary btn-lg">Submit All</button>
+        </div>
+      </div>
+    </div>
+  </section>
+</form><!--end main-->
+<footer class="footer">
+  <div class="container">
+    <div class="row">  
+      <div class="col-md-3">
+        <h2 class="footer-title">Coming soon on your favorite online shopping portal for Rs. 3675</h2>
+      </div>
+      <div class="col-md-5">
+        <p class="footer-content">Coming soon for Rs. 3675. </p>
+      </div>
+      <div class="col-md-4">
+        <form action="https://formspree.io/bhanu423+kick@gmail.com" method="POST" id="email-form" class="footer-form">
+          <div class="input-group">
+            <input id="email-field" type="text" class="form-control" name="subscribe-email" required="required" value="Coming soon for Rs. 3675" />
+            <input type="text" name="human-check" class="human-check" value="" />
+            <input type="hidden" name="_next" value="//bhanu.io/mhw/thank.html" />
+            <span class="input-group-btn">
+              <button id="email-submit" type="submit" class="btn btn-default">Join the waiting list.</button>
+            </span>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
